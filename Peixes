@@ -1,0 +1,6 @@
+pesolimite = 50 
+peso = float(input("Digite a quantidade de jgs de peixe que trouxe: "))
+if peso > pesolimite:
+  excesso = peso - pesolimite
+  multa = excesso * 4
+  print("A multa foi de " + str(multa) + "reais")
